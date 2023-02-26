@@ -14,7 +14,11 @@ dependencies:
   firebase_core: ^2.7.0
   firebase_dynamic_links: ^5.0.15
   firebase_ui_localizations: ^1.2.0
-  firebase_ui_oauth: ^1.1.14
+  firebase_ui_oauth:
+    git:
+      url: git@github.com:managry/flutterfire.git
+      ref: master
+      path: packages/firebase_ui_oauth    
   flutter:
     sdk: flutter
   flutter_localizations:
