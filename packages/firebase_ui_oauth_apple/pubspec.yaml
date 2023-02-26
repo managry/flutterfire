@@ -9,7 +9,11 @@ environment:
 
 dependencies:
   firebase_auth: ^4.2.9
-  firebase_ui_oauth: ^1.1.14
+  firebase_ui_oauth:
+    git:
+      url: git@github.com:managry/flutterfire.git
+      ref: master
+      path: packages/firebase_ui_oauth
   flutter:
     sdk: flutter
 
