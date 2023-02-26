@@ -10,7 +10,11 @@ environment:
 dependencies:
   desktop_webview_auth: ^0.0.11
   firebase_auth: ^4.2.9
-  firebase_ui_auth: ^1.1.14
+  firebase_ui_auth:
+    git:
+      url: git@github.com:managry/flutterfire.git
+      ref: master
+      path: packages/firebase_ui_auth  
   flutter_svg: ^2.0.1
   flutter:
     sdk: flutter
